@@ -1,5 +1,5 @@
 {
-  "projectName": "EcoServe Platform",
+  "projectName": "EcoServePlatform",
   "version": 2,
   
   "buildCommand": "npm run build",
