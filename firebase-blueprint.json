@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "menuItems": {
+      "title": "Menu Item",
+      "description": "A food item in a restaurant's persistent menu list.",
+      "type": "object",
+      "properties": {
+        "itemName": { "type": "string" },
+        "pricePerPlate": { "type": "number" },
+        "restaurantId": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["itemName", "pricePerPlate", "restaurantId"]
+    },
+    "surplusfoods": {
+      "title": "Surplus Food",
+      "description": "Surplus food listed by restaurants for NGOs.",
+      "type": "object",
+      "properties": {
+        "itemName": { "type": "string" },
+        "availablePlates": { "type": "number" },
+        "rating": { "type": "number" },
+        "description": { "type": "string" },
+        "image": { "type": "string" },
+        "restaurantId": { "type": "string" },
+        "restaurantName": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["itemName", "availablePlates", "restaurantId"]
+    }
+  },
+  "firestore": {
+    "menuItems": { "schema": "menuItems", "description": "Persistent menu database for restaurants" },
+    "surplusfoods": { "schema": "surplusfoods", "description": "Surplus food listings" }
+  }
+}

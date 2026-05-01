@@ -1,0 +1,7 @@
+{
+  "name": "Remix: EcoServe Platform",
+  "description": "Intelligent Food Management \u0026 Sustainability Platform connecting restaurants with surplus food to NGOs in real-time.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- =========================
+       CRITICAL RENDERING PATH
+  ========================== -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+  />
+  
+  <!-- =========================
+       SEO & META CONFIGURATION
+  ========================== -->
+  <meta name="theme-color" content="#3f6b2a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="EcoServe" />
+  
+  <meta
+    name="description"
+    content="EcoServe - AI-powered food sustainability platform connecting restaurants, NGOs, delivery networks, and carbon tracking systems to reduce food waste and feed lives."
+  />
+  <meta
+    name="keywords"
+    content="EcoServe, food waste reduction, NGO food distribution, restaurant surplus food, carbon credits, sustainability, AI logistics, food rescue"
+  />
+  <meta name="author" content="EcoServe Platform" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="English" />
+
+  <!-- =========================
+       PRIMARY TITLE
+  ========================== -->
+  <title>EcoServe | Reduce Food Waste. Feed Lives. | Sustainability Platform</title>
+
+  <!-- =========================
+       OPEN GRAPH / SOCIAL SHARE
+  ========================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EcoServe | Intelligent Food Sustainability Platform" />
+  <meta
+    property="og:description"
+    content="AI-powered platform connecting restaurants with NGOs to reduce food waste, maximize sustainability, and feed communities in real-time."
+  />
+  <meta property="og:image" content="/logo.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://ecoserve.platform/" />
+  <meta property="og:site_name" content="EcoServe" />
+
+  <!-- =========================
+       TWITTER CARD
+  ========================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EcoServe | Reduce Food Waste. Feed Lives." />
+  <meta
+    name="twitter:description"
+    content="AI-powered sustainability platform connecting restaurants and NGOs to reduce food waste."
+  />
+  <meta name="twitter:image" content="/logo.svg" />
+  <meta name="twitter:creator" content="@EcoServe" />
+
+  <!-- =========================
+       FAVICONS & APP ICONS
+  ========================== -->
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- =========================
+       PRECONNECT / DNS-PREFETCH
+  ========================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://maps.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- =========================
+       EXTERNAL PAYMENT INTEGRATION
+  ========================== -->
+  <link rel="preconnect" href="https://checkout.razorpay.com" />
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  <!-- =========================
+       SPA DEPLOYMENT FALLBACK
+       Prevents blank Vercel screens
+  ========================== -->
+  <script>
+    window.global = window;
+  </script>
+
+  <!-- =========================
+       OPTIONAL LOADING STYLES
+  ========================== -->
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100%;
+      background-color: #f5f5ef;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+    }
+
+    #root {
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .app-loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-size: 1.2rem;
+      color: #3f6b2a;
+      background: #f5f5ef;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- =========================
+       ROOT APP CONTAINER
+  ========================== -->
+  <div id="root">
+    <div class="app-loader">
+      Loading EcoServe Platform...
+    </div>
+  </div>
+
+  <!-- =========================
+       MAIN REACT ENTRY
+       MUST remain Vite-compatible
+  ========================== -->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
